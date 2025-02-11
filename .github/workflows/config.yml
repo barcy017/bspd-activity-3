@@ -39,8 +39,8 @@ jobs:
 
         - name: build docker image
           run: |
-            docker build -t barcy017/myflast-app:latest .
+            docker build -t barcy017/myflask-app:latest .
         
         - name: push to docker hub
           run: | 
-            docker push barcy017/myflast-app:latest
+            docker push barcy017/myflask-app:latest
